@@ -86,6 +86,10 @@ input {
     display: none;
 }
 
+input:hover + label {
+    background-color: #5D8BF4;
+}
+
 input:checked + label {
     background-color: #5D8BF4;
 }
