@@ -178,7 +178,7 @@ input:checked + label {
     text-align: center;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 360px) {
     .tarjetas, .tarjetas-ataques {
         flex-direction: column;
         margin: 10px;
@@ -187,19 +187,38 @@ input:checked + label {
     
     .titulo {
         color: white;
-        font-size: 55px;
+        font-size: 45px;
         margin-top: 25px;
         margin-bottom: 10px;
     }
     
     .subtitulo {
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         background: #11468f;
         border: 5px solid white;
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 10px;
+    }
+    
+    .tarjeta-de-mokepon {
+        width: 220px;
+        height: 130px;
+        background: #11468f;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 10px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border: 5px solid white;
+    }
+
+    .tarjeta-de-mokepon img {
+        width: 90px;
     }
 
     #mensajes {
@@ -250,7 +269,7 @@ input:checked + label {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 360px) {
     #ver-mapa div {
         display: flex;
         align-items: center;
